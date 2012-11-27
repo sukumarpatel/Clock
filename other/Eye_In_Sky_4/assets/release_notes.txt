@@ -1,7 +1,0 @@
-Version 4
-
-* Added 48 hour and 15 day forecast
-
-* Added tablet version
-
-* Many minor enhancements
