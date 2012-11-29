@@ -15,16 +15,18 @@
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/digital_appwidget"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:layout_gravity="center_horizontal|top"
-    android:orientation="vertical">
+    android:orientation="horizontal"
+	android:padding="@dimen/digital_widget_margin" >
 
     <include layout="@layout/digital_widget_time"
         android:id="@+id/digital_clock"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_gravity="center_horizontal|top"
+		android:padding="@dimen/digital_widget_margin" 
          />
 
       <ListView
