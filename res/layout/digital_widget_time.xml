@@ -20,8 +20,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:gravity="center_horizontal|top"
-    android:padding="2.0dip" 
     android:baselineAligned="false"
     android:background="?android:attr/selectableItemBackground"
     >
